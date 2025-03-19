@@ -1,2 +1,3 @@
-# N-7-Glitch
-Repository for N+7 experimentation
+# A N+7 text processor
+
+A simple N+7 text processor from a list of known nouns.
