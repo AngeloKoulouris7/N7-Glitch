@@ -12,7 +12,7 @@
     <style></style>
   </head>
   <body>
-    <h1>N+7</h1>
+    <h1>N+30</h1>
     <h2>Source text</h2>
     <p id="sourceText"></p>
     <h2>New text</h2>
@@ -20,8 +20,12 @@
     <!-- script -->
     <script>
       let nouns;
-      const sourceText = `The first of these touches conveyed that the written statement took up the tale at a point after it had, in a manner, begun. The fact to be in possession of was therefore that his old friend, the youngest of several daughters of a poor country parson, had, at the age of twenty, on taking service for the first time in the schoolroom, come up to London, in trepidation, to answer in person an advertisement that had already placed her in brief correspondence with the advertiser.`;
-      const wordOffset = 7;
+      const sourceText = `The Reappropriation of Ned Kelly: A Retrospective Film Festival
+Since his death in 1880, interpretations of the Ned Kelly legend have varied wildly from source to source and later from film to film, developing into an almost mythological ambiguity. Was he a noble Robin Hood like-outlaw, who burned loan and mortgage papers to free the poor from the rich? Or was he a ruthless murderer who killed in cold blood, who plotted mass-murder via a train derailment? Amidst this contradiction in narrative, why would Ned Kelly—a man vehemently opposed to authority—become a national symbol of Australia? 
+Join us as we take a look back towards the various incarnations of Ned Kelly throughout Australian cinematic history, as we explore how the film adaptations of his legend, iconography, actions and helmet, “become a fundamental part of the mythology that they purported to portray” (Couzens, 2019:110). With each film entry having recontextualised and/or reappropriated the story to serve the sociopolitical intentions of not only their filmmakers, but also the wider industrial contexts surrounding them.
+
+`;
+      const wordOffset = 30;
       function generateNewText(text) {
         let splitText = text.split(" ");
         let newText = "";
